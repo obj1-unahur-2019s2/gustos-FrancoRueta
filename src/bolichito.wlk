@@ -8,8 +8,8 @@ object bolichito {
 	method ponerEnVidriera(objeto) { objetoEnVidriera = objeto }
 	
 	method esBrillante() { 
-		const elDeMostradorBrilla = true   // implementar
-		const elDeVidrieraBrilla = true   // implementar
+		const elDeMostradorBrilla = objetoEnMostrador.material().brilla()
+		const elDeVidrieraBrilla = true
 		return elDeMostradorBrilla and elDeVidrieraBrilla
 	}
 	
@@ -28,4 +28,5 @@ object bolichito {
 	method puedeOfrecerleAlgoA(persona) {
 		// completar
 	}
+	method puedeMejorar(){}
 }
